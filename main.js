@@ -21,6 +21,8 @@ div1.setAttribute("class", "carre")
 div1.innerHTML = "W";
 div1.style.backgroundColor = 'grey';
 div1.addEventListener("click", () => {
+    victime.style.border = "none"
+    victime.style.borderRadius = "10px"
     victime.style.backgroundColor = "grey"
 })
 
@@ -29,6 +31,8 @@ div2.setAttribute("class", "carre")
 div2.innerText = "R"
 div2.style.backgroundColor = 'red';
 div2.addEventListener("click", () => {
+    victime.style.border = "none"
+    victime.style.borderRadius = "10px"
     victime.style.backgroundColor = "red"
 })
 
@@ -37,6 +41,8 @@ div3.setAttribute("class", "carre")
 div3.innerText = "G"
 div3.style.backgroundColor = 'green';
 div3.addEventListener("click", () => {
+    victime.style.border = "none";
+    victime.style.borderRadius = "10px"
     victime.style.backgroundColor = "green"
 })
 
@@ -45,6 +51,8 @@ div4.setAttribute("class", "carre")
 div4.innerText = "B"
 div4.style.backgroundColor = 'blueviolet';
 div4.addEventListener("click", () => {
+    victime.style.border = "none";
+    victime.style.borderRadius = "10px";
     victime.style.backgroundColor = "blueviolet"
 })
 
@@ -81,6 +89,8 @@ div8.setAttribute("class", "carre")
 div8.innerText = "top"
 div8.style.backgroundColor = "grey"
 div8.addEventListener("click", () => {
+    victime.style.border = "none"
+    victime.style.borderRadius = "10px"
     victime.style.backgroundColor = "grey"
 })
 
@@ -90,7 +100,9 @@ div9.innerText = "top"
 div9.style.borderTop = "2px solid red"
 div9.addEventListener("click", () => {
     victime.style.border = "none"
-    victime.style.borderTop = "2px solid red"
+    victime.style.borderRadius = "10px"
+    victime.style.borderTop = "2px solid red";
+    victime.style.backgroundColor = "none"
 })
 
 let div10 = document.createElement("div")
@@ -100,6 +112,7 @@ div10.style.borderTop = "6px solid red"
 div10.addEventListener("click", () => {
     victime.style.border = "none"
     victime.style.borderTop = "6px solid red"
+    victime.style.backgroundColor = "none"
 })
 
 section1.append(div1, div2, div3, div4, div567, div8, div9, div10)
@@ -122,7 +135,8 @@ let divv1 = document.createElement("div")
 divv1.setAttribute("class", "ligne2")
 divv1.style.border = "5px solid black"
 divv1.addEventListener("click", () => {
-    victime.style.border = "5px solid black"
+    victime.style.border = "5px solid black";
+    victime.style.backgroundColor = "unset"
 })
 
 let divv2 = document.createElement("div")
@@ -130,7 +144,8 @@ divv2.setAttribute("class", "ligne2")
 divv2.style.borderTop = "5px solid black"
 divv2.addEventListener("click", () => {
     victime.style.border = "2px inset";
-    victime.style.borderTop = "5px solid black"
+    victime.style.borderTop = "5px solid black";
+    victime.style.backgroundColor = "unset"
 })
 
 let divv3 = document.createElement("div")
@@ -138,7 +153,8 @@ divv3.setAttribute("class", "ligne2")
 divv3.style.borderRight = "5px solid black"
 divv3.addEventListener("click", () => {
     victime.style.border = "2px inset";
-    victime.style.borderRight = "5px solid black"
+    victime.style.borderRight = "5px solid black";
+    victime.style.backgroundColor = "unset"
 })
 
 let divv4 = document.createElement("div")
@@ -146,7 +162,8 @@ divv4.setAttribute("class", "ligne2")
 divv4.style.borderBottom = "5px solid black"
 divv4.addEventListener("click", () => {
     victime.style.border = "2px inset";
-    victime.style.borderBottom = "5px solid black"
+    victime.style.borderBottom = "5px solid black";
+    victime.style.backgroundColor = "unset"
 })
 
 let divv5 = document.createElement("div")
@@ -154,7 +171,8 @@ divv5.setAttribute("class", "ligne2")
 divv5.style.borderLeft = "5px solid black"
 divv5.addEventListener("click", () => {
     victime.style.border = "2px inset";
-    victime.style.borderLeft = "5px solid black"
+    victime.style.borderLeft = "5px solid black";
+    victime.style.backgroundColor = "unset"
 })
 
 section2.append(x,divv1, divv2, divv3, divv4, divv5)
