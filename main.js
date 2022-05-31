@@ -183,7 +183,6 @@ let divvv1 = document.createElement("div")
 divvv1.setAttribute("class", "ligne3")
 divvv1.style.borderRadius = "20%"
 divvv1.addEventListener("click", () => {
-    // victime.style.border = "inset";
     victime.style.borderRadius = "unset"
     victime.style.borderRadius = "35px";
 })
@@ -192,7 +191,6 @@ let divvv2 = document.createElement("div")
 divvv2.setAttribute("class", "ligne3")
 divvv2.style.borderTopLeftRadius = "20%"
 divvv2.addEventListener("click", () => {
-    // victime.style.border = "inset";
     victime.style.borderTopLeftRadius = "35px";
 })
 
@@ -200,7 +198,6 @@ let divvv3 = document.createElement("div")
 divvv3.setAttribute("class", "ligne3")
 divvv3.style.borderTopRightRadius = "20%"
 divvv3.addEventListener("click", () => {
-    // victime.style.border = "inset";
     victime.style.borderRadius = "unset"
     victime.style.borderTopRightRadius = "35px";
 })
@@ -209,7 +206,6 @@ let divvv4 = document.createElement("div")
 divvv4.setAttribute("class", "ligne3")
 divvv4.style.borderBottomRightRadius = "20%"
 divvv4.addEventListener("click", () => {
-    // victime.style.border = "inset";
     victime.style.borderRadius = "unset"
     victime.style.borderBottomRightRadius = "35px";
 })
@@ -219,7 +215,6 @@ let divvv5 = document.createElement("div")
 divvv5.setAttribute("class", "ligne3")
 divvv5.style.borderBottomLeftRadius = "20%"
 divvv5.addEventListener("click", () => {
-    // victime.style.border = "inset";
     victime.style.borderRadius = "unset"
     victime.style.borderBottomLeftRadius = "35px";
 })
@@ -233,6 +228,10 @@ section4.style.margin = "10vh 0"
 
 let victime = document.createElement("div")
 victime.setAttribute("class", "ligne4")
+// victime.addEventListener("click", () => {
+//     victime.classList.toggle("lign4")
+// })
+
 section4.appendChild(victime)
 
 document.body.append(titre, hr, section1, section2, section3, section4)
