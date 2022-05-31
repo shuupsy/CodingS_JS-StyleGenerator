@@ -99,7 +99,7 @@ div9.setAttribute("class", "carre")
 div9.innerText = "top"
 div9.style.borderTop = "2px solid red"
 div9.addEventListener("click", () => {
-    victime.style.border = "none"
+    // victime.style.border = "none"
     victime.style.borderRadius = "10px"
     victime.style.borderTop = "2px solid red";
     victime.style.backgroundColor = "none"
@@ -110,7 +110,7 @@ div10.setAttribute("class", "carre")
 div10.innerText = "top"
 div10.style.borderTop = "6px solid red"
 div10.addEventListener("click", () => {
-    victime.style.border = "none"
+    // victime.style.border = "none"
     victime.style.borderTop = "6px solid red"
     victime.style.backgroundColor = "none"
 })
@@ -136,7 +136,6 @@ divv1.setAttribute("class", "ligne2")
 divv1.style.border = "5px solid black"
 divv1.addEventListener("click", () => {
     victime.style.border = "5px solid black";
-    victime.style.backgroundColor = "unset"
 })
 
 let divv2 = document.createElement("div")
@@ -145,7 +144,6 @@ divv2.style.borderTop = "5px solid black"
 divv2.addEventListener("click", () => {
     victime.style.border = "2px inset";
     victime.style.borderTop = "5px solid black";
-    victime.style.backgroundColor = "unset"
 })
 
 let divv3 = document.createElement("div")
@@ -154,7 +152,6 @@ divv3.style.borderRight = "5px solid black"
 divv3.addEventListener("click", () => {
     victime.style.border = "2px inset";
     victime.style.borderRight = "5px solid black";
-    victime.style.backgroundColor = "unset"
 })
 
 let divv4 = document.createElement("div")
@@ -163,7 +160,6 @@ divv4.style.borderBottom = "5px solid black"
 divv4.addEventListener("click", () => {
     victime.style.border = "2px inset";
     victime.style.borderBottom = "5px solid black";
-    victime.style.backgroundColor = "unset"
 })
 
 let divv5 = document.createElement("div")
@@ -172,7 +168,6 @@ divv5.style.borderLeft = "5px solid black"
 divv5.addEventListener("click", () => {
     victime.style.border = "2px inset";
     victime.style.borderLeft = "5px solid black";
-    victime.style.backgroundColor = "unset"
 })
 
 section2.append(x,divv1, divv2, divv3, divv4, divv5)
@@ -188,32 +183,35 @@ let divvv1 = document.createElement("div")
 divvv1.setAttribute("class", "ligne3")
 divvv1.style.borderRadius = "20%"
 divvv1.addEventListener("click", () => {
-    victime.style.border = "2px inset";
-    victime.style.borderRadius = "35px"
+    // victime.style.border = "inset";
+    victime.style.borderRadius = "unset"
+    victime.style.borderRadius = "35px";
 })
 
 let divvv2 = document.createElement("div")
 divvv2.setAttribute("class", "ligne3")
 divvv2.style.borderTopLeftRadius = "20%"
 divvv2.addEventListener("click", () => {
-    victime.style.border = "2px inset";
-    victime.style.borderTopLeftRadius = "35px"
+    // victime.style.border = "inset";
+    victime.style.borderTopLeftRadius = "35px";
 })
 
 let divvv3 = document.createElement("div")
 divvv3.setAttribute("class", "ligne3")
 divvv3.style.borderTopRightRadius = "20%"
 divvv3.addEventListener("click", () => {
-    victime.style.border = "2px inset";
-    victime.style.borderTopRightRadius = "35px"
+    // victime.style.border = "inset";
+    victime.style.borderRadius = "unset"
+    victime.style.borderTopRightRadius = "35px";
 })
 
 let divvv4 = document.createElement("div")
 divvv4.setAttribute("class", "ligne3")
 divvv4.style.borderBottomRightRadius = "20%"
 divvv4.addEventListener("click", () => {
-    victime.style.border = "2px inset";
-    victime.style.borderBottomRightRadius = "35px"
+    // victime.style.border = "inset";
+    victime.style.borderRadius = "unset"
+    victime.style.borderBottomRightRadius = "35px";
 })
 
 
@@ -221,8 +219,9 @@ let divvv5 = document.createElement("div")
 divvv5.setAttribute("class", "ligne3")
 divvv5.style.borderBottomLeftRadius = "20%"
 divvv5.addEventListener("click", () => {
-    victime.style.border = "2px inset";
-    victime.style.borderBottomLeftRadius = "35px"
+    // victime.style.border = "inset";
+    victime.style.borderRadius = "unset"
+    victime.style.borderBottomLeftRadius = "35px";
 })
 
 section3.append(divvv1, divvv2, divvv3, divvv4, divvv5)
